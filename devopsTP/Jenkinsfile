@@ -16,7 +16,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    dir('mini-projet') {
+                    dir('devopsTP') {
                          bat 'docker build -t rayenmaghraoui/devopstp:latest .'
                     }
                    

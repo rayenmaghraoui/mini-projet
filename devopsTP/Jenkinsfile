@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github_credentials', url: 'https://github.com/rayenmaghraoui/mini-projet'
+                git branch: 'master', credentialsId: 'github_credentials', url: 'https://github.com/rayenmaghraoui/mini-projet'
             }
         }
 
